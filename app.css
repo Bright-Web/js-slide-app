@@ -1,0 +1,41 @@
+
+
+h1{
+    margin: 0;
+}
+
+.slide{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
+
+.slide-1{
+    background-color: lightcoral;
+    
+}
+.slide-2{
+    background-color: skyblue;
+}
+.slide-3{
+    background-color: lightgreen;
+}
+
+.app-wrapper{
+    
+}
+
+.hidden{
+    left: 100vw;
+    transition: ease-in-out 1s;
+}
+
+.visable{
+    left: 0;
+    transition: ease-in-out 1s;
+}
+
+.exiting{
+    left: -100vw;
+    transition: ease-in-out 1s;
+}
